@@ -108,8 +108,10 @@ const router = createBrowserRouter([
         element: <NotFoundPage />
       }
     ]
+
+
   }
-])
+]   , { base: '/e-commerce/',})
 
 function App() {
   return (
